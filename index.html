@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/headerLogo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Stage</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="dicsount-color">
+            <div class="dicsount-color__text container">
+                <p>Только три дня скидка <span>-30%</span> на всё!</p>
+            </div>
+        </div>
+
+        <div class="header-info container flexbox">
+
+            <div class="header-info__left">
+
+                <div class="header-info__left_phone header-info__left_indentation">
+                    <img src="./img/phone.png" alt="phone">
+                    <a href="#" class="header-info__left_phone_contacts">+7 951 999 28 34 </a>
+                </div>
+                <div class="header-info__left_email header-info__left_indentation">
+                    <img src="./img/email.png" alt="email">
+                    <a href="#" class="header-info__left_phone_contacts">info@stageboxbrand.ru</a>
+                </div>
+
+            </div>
+
+            <img src="./img/headerLogo.png" alt="headerLogo">
+
+            <div class="header-info__right">
+                <img src="./img/basket.png" alt="" class="header-info__right_basket">
+                <img src="./img/persArea.png" alt="" class="header-info__right_persArea"
+                    id="header-info__right_persArea">
+
+
+                <div class="profile-card show">
+                    <img src="./img/x.svg" alt="" class="product-card-closed" id="product-card-closed">
+                    <div class="profile">
+                        <img src="./img/photo-profile.jpg" alt="" class="photo-profile">
+
+                        <h2>Джинсы</h2>
+                        <p class="profile_start">На STAGE с 2018 года</p>
+                        <p class="profile_gender"> Пол
+                            <SELECT NAME="Выбор">
+                                <OPTION>Мужской
+                                <OPTION>Женский
+                            </SELECT>
+                        </p>
+                        <p class="profile_number">Номер телефона: +7 (123) 456-78-90</p>
+                        <p class="profile_email">Email: djinsi@example.com</p>
+                        <p class="profile_preferences">Предпочтения в обуви: Balenciaga Defender</p>
+                        <p class="profile_history">История заказов:</p>
+                        <ul>
+                            <li>Заказ #12349: Nike Air Max - 2 марта 2023</li>
+                            <li>Заказ #1234: Adidas Ultraboost - 15 января 2021</li>
+                            <li>Заказ #150: Puma RS-X - 10 декабря 2018</li>
+                        </ul>
+                        <a href="#" class="profile_delete">Удалить аккаунт</a>
+
+                    </div>
+                </div>
+
+
+                <img src="./img/favorites.png" alt="" class="header-info__right_favorites" id="header-info__right_favorites">
+                <div class="header-info__right_favorites-active"></div>
+
+                <div class="profile-favorites show">
+                    <img src="./img/x.svg" alt="" class="product-card-closed" id="favorites-card-close">
+                    <div class="profile">
+                        
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main-menu container flexbox">
+
+            <div class="main-menu__left">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#">Кроссовки</a></li>
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Аксессуары</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main-menu__right">
+                <input type="text" placeholder="Поиск" class="search-input">
+                <button class="search-button"><img src="./img/search.png" alt=""></button>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+                    <section class="main-slider container flexbox">
+                        <div class="main-slider__left">
+                            <h1>Adidas <br>Nite Jogger</h1>
+                            <p>Городские кроссовки в ярком стиле 80-х</p>
+                            <button>Смотреть все</button>
+                        </div>
+                        <div class="main-slider__right">
+                            <img src="./img/adidasNite.png" alt="adidasNite" class="swiper-img1">
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <section class="main-slider container flexbox">
+                        <div class="main-slider__left">
+                            <h1>Adidas <br>Yeezy Boost</h1>
+                            <p>Городские кроссовки в ярком стиле 80-х</p>
+                            <button>Смотреть все</button>
+                        </div>
+                        <div class="main-slider__right">
+                            <img src="./img/swipper_img1.png" alt="" class="swiper-img2">
+                        </div>
+                    </section>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <section class="main-slider container flexbox">
+                        <div class="main-slider__left">
+                            <h1>Nike <br>Air Max</h1>
+                            <p>Городские кроссовки в ярком стиле 80-х</p>
+                            <button>Смотреть все</button>
+                        </div>
+                        <div class="main-slider__right">
+                            <img src="./img/swiper_img2.png" alt="" class="swiper-img3">
+                        </div>
+                    </section>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <section class="product-list container">
+
+            <div class="product-card">
+                <img src="./img/prCard_Yeezy1.png" alt="prCard_Yeezy1" class="product-card__first">
+                <h3>Adidas Yeezy Boost</h3>
+                <a><img src="./img/shape.png" alt="shape"></a>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/prCard_Nike.png" alt="prCard_Nike" class="product-card__first">
+                <h3>Nike Air Max</h3>
+                <a><img src="./img/shape.png" alt="shape"></a>
+            </div>
+
+        </section>
+
+        <section class="card-container container">
+            <h2>Лучшие из лучших</h2>
+
+            <div class="card-container__all flexbox">
+
+                <div class="card-container__all-cards">
+                    <img src="./img/cardsFirst.png" alt="" class="card-container__all-cards_img">
+
+                    <div class="card-container__all-cards_bottom">
+                        <h4>СЛАНЦЫ ADIDAS YEEZY SLIDE</h4>
+                        <p>Артикул 19666 </p>
+
+                        <div class="card-container__price flexbox">
+                            <h3>3290 ₽</h3>
+                            <img src="./img/follow.svg" alt="" class="card-container__price-active">
+                        </div>
+
+                        <div class="card-container__size">
+                            <div>
+                                <p class="card-container__size-p">35 EUR</p>
+                                <p class="card-container__size-p">36 EUR</p>
+                                <p class="card-container__size-p">37 EUR</p>
+
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">38 EUR</p>
+                                <p class="card-container__size-p">39 EUR</p>
+                                <p class="card-container__size-p">40 EUR</p>
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">41 EUR</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card-container__all-cards">
+                    <img src="./img/cardsS.png" alt="" class="card-container__all-cards_img">
+                    <div class="card-container__all-cards_bottom">
+                        <h4>КРОССОВКИ ADIDAS EQT SUPPORT ADV PK</h4>
+                        <p>Артикул 19666 </p>
+                        <div class="card-container__price  flexbox">
+                            <h3>3290 ₽</h3>
+                            <img src="./img/follow.svg" alt="" class="card-container__price-active">
+                        </div>
+                        <div class="card-container__size">
+                            <div>
+                                <p class="card-container__size-p">35 EUR</p>
+                                <p class="card-container__size-p">36 EUR</p>
+                                <p class="card-container__size-p">37 EUR</p>
+
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">38 EUR</p>
+                                <p class="card-container__size-p">39 EUR</p>
+                                <p class="card-container__size-p">40 EUR</p>
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">41 EUR</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card-container__all-cards">
+                    <img src="./img/cardsT.png" alt="" class="card-container__all-cards_img">
+
+                    <div class="card-container__all-cards_bottom">
+                        <h4>КРОССОВКИ ADIDAS SUPPORT</h4>
+                        <p>Артикул 19666 </p>
+
+                        <div class="card-container__price  flexbox">
+                            <h3>3290 ₽</h3>
+                            <img src="./img/follow.svg" alt="" class="card-container__price-active">
+                        </div>
+
+                        <div class="card-container__size">
+                            <div>
+                                <p class="card-container__size-p">35 EUR</p>
+                                <p class="card-container__size-p">36 EUR</p>
+                                <p class="card-container__size-p">37 EUR</p>
+
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">38 EUR</p>
+                                <p class="card-container__size-p">39 EUR</p>
+                                <p class="card-container__size-p">40 EUR</p>
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">41 EUR</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card-container__all-cards">
+                    <img src="./img/cardsFou.png" alt="" class="card-container__all-cards_img">
+                    <div class="card-container__all-cards_bottom">
+                        <h4>КРОССОВКИ ADIDAS INSTINCT</h4>
+                        <p>Артикул 19666 </p>
+
+                        <div class="card-container__price flexbox">
+                            <h3>3290 ₽</h3>
+                            <img src="./img/follow.svg" alt="" class="card-container__price-active">
+                        </div>
+
+                        <div class="card-container__size">
+                            <div>
+                                <p class="card-container__size-p">35 EUR</p>
+                                <p class="card-container__size-p">36 EUR</p>
+                                <p class="card-container__size-p">37 EUR</p>
+
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">38 EUR</p>
+                                <p class="card-container__size-p">39 EUR</p>
+                                <p class="card-container__size-p">40 EUR</p>
+                            </div>
+
+                            <div>
+                                <p class="card-container__size-p">41 EUR</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="advantages container">
+            <div class="advantages-main flexbox">
+
+                <div class="advantages-main__guarantee">
+                    <div class="circle circle_blue"><img src="./img/like.png" alt=""></div>
+                    <h3>Гарантируем качество товара</h3>
+                </div>
+
+                <div class="advantages-main__help">
+                    <div class="circle circle_green"><img src="./img/help.png" alt=""></div>
+                    <h3>Поможем подобрать размер</h3>
+                </div>
+
+                <div class="advantages-main__delivery">
+                    <div class="circle circle_red"><img src="./img/box.png" alt=""></div>
+                    <h3>Быстро доставим покупку</h3>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="blog container">
+            <h1>Блог</h1>
+
+            <div class="blog-container flexbox">
+
+                <div class="offer">
+
+                    <div class="offer-top_card">
+                        <img src="./img/offerF.png" alt="offerF">
+
+                        <div class="offer-top_card__text">
+                            <h3>КРОССОВКИ NIKE AIR MAX 270</h3>
+                            <p>Nike Air Max 720 Saturn представлен в совершенно новой цветовой гамме Black / Team
+                                Orange.</p>
+
+                            <div class="offer-top_card__textDate">
+                                <span>15 августа 2019</span>
+                                <div class="offer-top_card__textViews">
+                                    <img src="./img/eye.svg" alt="">
+                                    <span>4 416</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="offer-bottom_card">
+                        <img src="./img/offerF.png" alt="offerF">
+
+                        <div class="offer-top_card__text">
+                            <h3>Кроссовки Nike Air Max 720 Saturn</h3>
+                            <p>Nike Air Max 720 Saturn представлен в совершенно новой цветовой гамме Black / Team
+                                Orange.</p>
+
+                            <div class="offer-top_card__textDate">
+                                <span>15 августа 2019</span>
+                                <div class="offer-top_card__textViews">
+                                    <img src="./img/eye.svg" alt="">
+                                    <span>4 416</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div class="sale-form">
+                        <h2>Подпишись на рассылку и получи скидку до 10 %</h2>
+                    </div>
+                    <form action="#">
+                        <input type="email" placeholder="Введите Ваш email">
+                        <button>Подписаться</button>
+                        <a href="layout.png" download>Политика конфиденциальности</a>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="brend-list container">
+            <h1>Бренды</h1>
+            <div class="brend-list-box flexbox">
+                <img src="./img/logo-porsche.png" alt="">
+                <img src="./img/logo-balance.png" alt="">
+                <img src="./img/logo-nike.png" alt="">
+                <img src="./img/logo-puma.png" alt="">
+                <img src="./img/logo-vans.png" alt="">
+                <img src="./img/logo-reebok.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container flexbox">
+            <img src="./img/main-logo.png" alt="" class="img-main_logo">
+
+            <div class="contacts">
+
+                <div class="media">
+                    <img src="./img/logo-instagram.png" alt="">
+                    <img src="./img/logo-vk.png" alt="">
+                    <img src="./img/logo-whatsapp.png" alt="">
+                </div>
+
+                <div class="connection">
+
+                    <div class="connection-phone">
+                        <img src="./img/logo-phone.png" alt="">
+                        <a href="#">+7 951 999 28 34</a>
+                    </div>
+                    <div class="connection-email">
+                        <img src="./img/logo-email.png" alt="">
+                        <a href="#">info@stageboxbrand.ru</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="links">
+                <a href="#">Доставка</a>
+                <a href="#">Гарантии</a>
+                <a href="#">Таблица размеров</a>
+                <a href="#">Обмен и возврат</a>
+                <a href="#">Вопросы и ответы</a>
+            </div>
+
+            <div class="search">
+
+                <div class="shearch-logos">
+                    <img src="./img/basket_f.png" alt="">
+                    <img src="./img/pers_f.png" alt="">
+                </div>
+
+                <div class="search-input-s">
+                    <input type="text" placeholder="Поиск" class="search-input-s_input">
+                    <button class="search-button-s"><img src="./img/search.png" alt=""></button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script src="./swiper.js"></script>
+
+</html>
